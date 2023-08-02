@@ -1,0 +1,25 @@
+.trip-search-bar {
+  width: 100%;
+  padding: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #E0E3EB;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  .search-dropdowns {
+    margin-left: 64px;
+  }
+
+  .trip-search-bar-loader {
+    position: absolute;
+
+    right: 64px;
+  }
+}

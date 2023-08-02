@@ -1,0 +1,27 @@
+.hotel-card {
+  width: 600px;
+  height: 200px;
+  margin: 16px 0;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
+
+  display: flex;
+
+  .hotel-card-cover-image {
+    height: 100%;
+    width: 250px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    border: 1px solid #E0E3EB;
+  }
+
+  .hotel-card-content {
+    padding: 0 16px;
+
+    .hotel-card-details {
+      display: block;
+      margin-bottom: 4px;
+    }
+  }
+}
